@@ -365,16 +365,16 @@
       if (noCount === 4) {
         noBtn.textContent = "I’m shy 😳";
       }
-      if (noCount === 7) {
+      if (noCount === 6) {
         noBtn.textContent = "Fine Maybe 😭";
       }
-      if (noCount === 10) {
+      if (noCount === 8) {
         noBtn.textContent = "You are hurting my feelings 🥺";
         }
-      if (noCount === 13) {
+      if (noCount === 10) {
         noBtn.textContent = "You're really picking NO?!";
           }
-      if (noCount === 16) {
+      if (noCount === 12) {
         noBtn.textContent = "Tjo, Tlogela geh - mxm";
       }
 
@@ -404,7 +404,7 @@
     // respectful exit option
     exitBtn.addEventListener("click", () => {
       quoteEl.textContent =
-        "That’s okay. 💗 I like you a lot — and I respect you. If you ever want to talk, I’m here.";
+        "That’s okay, I understand. 💗 I like you a lot — and I respect you. If you ever want to talk, I’m here.";
       noBtn.style.position = "static";
       noBtn.textContent = "No 🙈";
     });
