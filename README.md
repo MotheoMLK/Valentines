@@ -362,19 +362,19 @@
       noCount++;
 
       // after a few tries, soften it and respect boundaries
-      if (noCount === 4) {
+      if (noCount === 3) {
         noBtn.textContent = "No? How?? 😳";
       }
       if (noCount === 6) {
         noBtn.textContent = "Why no?! 😭";
       }
-      if (noCount === 8) {
+      if (noCount === 9 {
         noBtn.textContent = "You are hurting my feelings 🥺";
         }
-      if (noCount === 10) {
+      if (noCount === 12) {
         noBtn.textContent = "You're really picking NO?!";
           }
-      if (noCount === 12) {
+      if (noCount === 15) {
         noBtn.textContent = "Tjo, Tlogela geh - mxm";
       }
 
@@ -398,7 +398,7 @@
       if (window.innerWidth > 520) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 520) moveNoButton();
+      if (window.innerWidth > 1) moveNoButton();
     });
 
     // respectful exit option
