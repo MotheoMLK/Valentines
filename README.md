@@ -395,10 +395,10 @@
 
     // dodge on hover AND on click
     noBtn.addEventListener("mouseenter", () => {
-      if (window.innerWidth > 3) moveNoButton();
+      if (window.innerWidth > 12) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 3) moveNoButton();
+      if (window.innerWidth > 12) moveNoButton();
     });
 
     // respectful exit option
