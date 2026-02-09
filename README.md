@@ -256,7 +256,7 @@
 
   <main class="card">
     <div class="top">
-      <div class="badge">💌 <span>Message from your favorite person</span></div>
+      <div class="badge">💌 <span>Message from your least favorite person</span></div>
       <div class="badge">✨ <span class="sparkle">Made with love</span></div>
     </div>
 
@@ -290,9 +290,9 @@
         Okay, listen… I’m officially the luckiest person alive.
         I promise to keep choosing you — gently, loudly, and always.  
         <br><br>
-        Now come here, Valentine. 💘
+        Thank You For Choicing Me, Valentine. 💘
       </p>
-      <button class="close" id="closeBtn">Aww 🥹</button>
+      <button class="close" id="closeBtn">Love YOU!!!</button>
     </div>
   </div>
 
@@ -371,8 +371,11 @@
       if (noCount === 10) {
         noBtn.textContent = "You are hurting my feelings 🥺";
         }
-      if (noCount === 10) {
+      if (noCount === 13) {
         noBtn.textContent = "You're really picking NO?!";
+          }
+      if (noCount === 16) {
+        noBtn.textContent = "Tjo, Tlogela geh - mxm";
       }
 
       const rect = actions.getBoundingClientRect();
