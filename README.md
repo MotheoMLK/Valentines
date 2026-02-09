@@ -272,7 +272,7 @@
 
     <div class="actions" id="actions">
       <button class="yes" id="yesBtn">Yes 💖</button>
-      <button class="no" id="noBtn">No??!! 🙈</button>
+      <button class="no" id="noBtn">No?! 🙈</button>
       <button class="exit" id="exitBtn">I need time - Heartbreak </button>
     </div>
 
@@ -285,7 +285,7 @@
   <div class="modal" id="modal">
     <div class="modalCard">
       <div class="bigHeart">💗</div>
-      <h2>You just made my whole heart smile.</h2>
+      <h2>You just made my entire day :-).</h2>
       <p>
         Okay, listen… I’m officially the luckiest person alive.
         I promise to keep choosing you — gently, loudly, and always.  
@@ -363,10 +363,10 @@
 
       // after a few tries, soften it and respect boundaries
       if (noCount === 4) {
-        noBtn.textContent = "I’m shy 😳";
+        noBtn.textContent = "No? How?? 😳";
       }
       if (noCount === 6) {
-        noBtn.textContent = "Fine Maybe 😭";
+        noBtn.textContent = "Why no?! 😭";
       }
       if (noCount === 8) {
         noBtn.textContent = "You are hurting my feelings 🥺";
@@ -382,8 +382,8 @@
       const btnRect = noBtn.getBoundingClientRect();
 
       // keep within actions container
-      const maxX = rect.width + btnRect.width + 20;
-      const maxY = rect.height + btnRect.height + 20;
+      const maxX = rect.width - btnRect.width;
+      const maxY = rect.height - btnRect.height;
 
       const x = Math.max(0, Math.random() * maxX);
       const y = Math.max(0, Math.random() * maxY);
@@ -395,10 +395,10 @@
 
     // dodge on hover AND on click
     noBtn.addEventListener("mouseenter", () => {
-      if (window.innerWidth > 520) moveNoButton();
+      if (window.innerWidth > 3) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 520) moveNoButton();
+      if (window.innerWidth > 3) moveNoButton();
     });
 
     // respectful exit option
@@ -406,7 +406,7 @@
       quoteEl.textContent =
         "That’s okay, I understand. 💗 I like you a lot — and I respect you. If you ever want to talk, I’m here.";
       noBtn.style.position = "static";
-      noBtn.textContent = "No 🙈";
+      noBtn.textContent = "No?! 🙈";
     });
 
     // close modal by clicking outside
