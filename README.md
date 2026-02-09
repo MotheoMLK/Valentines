@@ -1,4 +1,4 @@
-*<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -261,10 +261,10 @@
       <div class="badge">✨ <span class="sparkle">Made with love</span></div>
     </div>
 
-    <h1>Will you be my Valentine? 💘</h1>
+    <h1>Pelontle, will you be my Valentine? 💘</h1>
     <p class="sub">
-      I don’t want a perfect day. I want a day with <b>you</b>.
-      And honestly… I want a lot of days after that too. 🌙
+      Our situation may not be prefect, but I want to spend a day with <b>you</b>.
+      And honestly… hopefully lot of days after that too. 🌙
     </p>
 
     <div class="quoteBox">
@@ -274,7 +274,7 @@
     <div class="actions" id="actions">
       <button class="yes" id="yesBtn">Yes 💖</button>
       <button class="no" id="noBtn">No 🙈</button>
-      <button class="exit" id="exitBtn">I need time</button>
+      <button class="exit" id="exitBtn">I need time - Heartbreak </button>
     </div>
 
     <div class="footer">
@@ -303,10 +303,10 @@
       "“I love you not only for what you are, but for what I am when I am with you.” 💞",
       "“You are my favorite notification.” 📲💗",
       "“Some people search their whole lives for this feeling.” ✨",
-      "“You feel like home.” 🏡💘",
+      "“You make all my problems disappear” 🏡💘",
       "“I don’t need a perfect love story… I just need you in mine.” 📖❤️",
       "“If kisses were stars, I’d give you the sky.” 🌙⭐",
-      "“In a world full of maybe… you’re my yes.” 🥰",
+      "“In a world full of maybe… you’re my yes and everything” 🥰",
       "“You + me = the softest kind of forever.” ♾️",
       "“I looked at you and thought: so this is what magic looks like.” ✨💗"
     ];
