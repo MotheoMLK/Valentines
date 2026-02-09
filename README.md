@@ -262,8 +262,8 @@
 
     <h1>Pelontle, will you be my Valentine? 💘</h1>
     <p class="sub">
-      Our situation may not be perfect, but I want to spend a day with <b>you</b>.
-      And honestly… hopefully lot of days after that too. 🌙
+      Our situation may not be perfect, but I want to spend <b>THIS SPECIAL DAY</b> with <b>you</b>.
+      And honestly… lot of days after that too. 🌙
     </p>
 
     <div class="quoteBox">
