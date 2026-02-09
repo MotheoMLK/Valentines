@@ -273,7 +273,7 @@
     <div class="actions" id="actions">
       <button class="yes" id="yesBtn">Yes 💖</button>
       <button class="no" id="noBtn">No?! 🙈</button>
-      <button class="exit" id="exitBtn">I need time - Heartbreak </button>
+      <button class="exit" id="exitBtn">I need time :-(</button>
     </div>
 
     <div class="footer">
@@ -395,10 +395,10 @@
 
     // dodge on hover AND on click
     noBtn.addEventListener("mouseenter", () => {
-      if (window.innerWidth > 1) moveNoButton();
+      if (window.innerWidth > 520) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 1) moveNoButton();
+      if (window.innerWidth > 520) moveNoButton();
     });
 
     // respectful exit option
