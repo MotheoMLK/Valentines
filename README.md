@@ -382,8 +382,8 @@
       const btnRect = noBtn.getBoundingClientRect();
 
       // keep within actions container
-      const maxX = rect.width + btnRect.width;
-      const maxY = rect.height + btnRect.height;
+      const maxX = rect.width + btnRect.width + 20;
+      const maxY = rect.height + btnRect.height + 20;
 
       const x = Math.max(0, Math.random() * maxX);
       const y = Math.max(0, Math.random() * maxY);
@@ -395,10 +395,10 @@
 
     // dodge on hover AND on click
     noBtn.addEventListener("mouseenter", () => {
-      if (window.innerWidth > 5) moveNoButton();
+      if (window.innerWidth > 520) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 5) moveNoButton();
+      if (window.innerWidth > 520) moveNoButton();
     });
 
     // respectful exit option
