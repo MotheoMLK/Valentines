@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -273,7 +272,7 @@
 
     <div class="actions" id="actions">
       <button class="yes" id="yesBtn">Yes 💖</button>
-      <button class="no" id="noBtn">No 🙈</button>
+      <button class="no" id="noBtn">No??!! 🙈</button>
       <button class="exit" id="exitBtn">I need time - Heartbreak </button>
     </div>
 
@@ -367,10 +366,13 @@
         noBtn.textContent = "I’m shy 😳";
       }
       if (noCount === 7) {
-        noBtn.textContent = "Okay stop 😭";
+        noBtn.textContent = "Fine Maybe 😭";
       }
       if (noCount === 10) {
-        noBtn.textContent = "Fine… maybe? 🥺";
+        noBtn.textContent = "You are hurting my feelings 🥺";
+        }
+      if (noCount === 10) {
+        noBtn.textContent = "You're really picking NO?!";
       }
 
       const rect = actions.getBoundingClientRect();
