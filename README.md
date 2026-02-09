@@ -277,7 +277,7 @@
     </div>
 
     <div class="footer">
-      <span>🌹 SEE I CAN BE ROMANTIC SOMETIMES...</span>
+      <span>🌹 SEE I CAN BE ROMANTIC WHEN I WANT TO...</span>
       <span>LOL, Try Clicking on “No” 😌</span>
     </div>
   </main>
@@ -300,14 +300,14 @@
     const quotes = [
       "“If I had a flower for every time I thought of you… I could walk through my garden forever.” 🌸",
       "“I love you not only for what you are, but for what I am when I am with you.” 💞",
-      "“You are my favorite notification.” 📲💗",
-      "“Some people search their whole lives for this feeling.” ✨",
+      "“You are my favorite notification - sometimes...” 📲💗",
+      "“Some people search their whole lives for this feeling I get when I'm with you.” ✨",
       "“You make all my problems disappear” 🏡💘",
       "“I don’t need a perfect love story… I just need you in mine.” 📖❤️",
       "“If kisses were stars, I’d give you the sky.” 🌙⭐",
-      "“In a world full of maybe… you’re my yes and everything” 🥰",
+      "“You taste as good as you look Mammie” 🥰",
       "“Pelontle Dineo Ngwako = Forever Yena.” ♾️",
-      "“I looked at you and thought: so this is what magic looks like.” ✨💗"
+      "“I looked at you and thought: so this is what Heaven looks like.” ✨💗"
     ];
 
     const quoteEl = document.getElementById("quote");
@@ -372,10 +372,16 @@
         noBtn.textContent = "You are hurting my feelings 🥺";
         }
       if (noCount === 10) {
-        noBtn.textContent = "You're really picking NO?!";
-          }
+        noBtn.textContent = "You're really picking NO?!";   
+      }
       if (noCount === 12) {
-        noBtn.textContent = "Tjo, Tlogela geh - mxm";
+        noBtn.textContent = "Entlek Ong Bhorile shem";
+          }
+      if (noCount === 14) {
+        noBtn.textContent = "Tjo, Tlogela geh Dineo";
+            }
+      if (noCount === 16) {
+        noBtn.textContent = "At this point, delete my numbers!!!";
       }
 
       const rect = actions.getBoundingClientRect();
