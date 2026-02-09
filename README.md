@@ -290,7 +290,7 @@
         Okay, listen… I’m officially the luckiest person alive.
         I promise to keep choosing you — gently, loudly, and always.  
         <br><br>
-        Thank You For Choicing Me, Valentine. 💘
+        Thank You For Choosing Me, My Valentine. 💘
       </p>
       <button class="close" id="closeBtn">Love YOU!!!</button>
     </div>
@@ -382,8 +382,8 @@
       const btnRect = noBtn.getBoundingClientRect();
 
       // keep within actions container
-      const maxX = rect.width - btnRect.width;
-      const maxY = rect.height - btnRect.height;
+      const maxX = rect.width;
+      const maxY = rect.height;
 
       const x = Math.max(0, Math.random() * maxX);
       const y = Math.max(0, Math.random() * maxY);
@@ -395,10 +395,10 @@
 
     // dodge on hover AND on click
     noBtn.addEventListener("mouseenter", () => {
-      if (window.innerWidth > 520) moveNoButton();
+      if (window.innerWidth > 20) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 520) moveNoButton();
+      if (window.innerWidth > 20) moveNoButton();
     });
 
     // respectful exit option
