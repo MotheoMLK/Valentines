@@ -277,8 +277,8 @@
     </div>
 
     <div class="footer">
-      <span>🌹 Romantic mode: <b>ON</b></span>
-      <span>Tip: try clicking “No” 😌</span>
+      <span>🌹 SEE I CAN BE ROMANTIC SOMETIMES...</span>
+      <span>LOL, Try Clicking on “No” 😌</span>
     </div>
   </main>
 
@@ -306,7 +306,7 @@
       "“I don’t need a perfect love story… I just need you in mine.” 📖❤️",
       "“If kisses were stars, I’d give you the sky.” 🌙⭐",
       "“In a world full of maybe… you’re my yes and everything” 🥰",
-      "“You + me = the softest kind of forever.” ♾️",
+      "“Pelontle Dineo Ngwako = Forever Yena.” ♾️",
       "“I looked at you and thought: so this is what magic looks like.” ✨💗"
     ];
 
@@ -362,19 +362,19 @@
       noCount++;
 
       // after a few tries, soften it and respect boundaries
-      if (noCount === 3) {
+      if (noCount === 4) {
         noBtn.textContent = "No? How?? 😳";
       }
       if (noCount === 6) {
         noBtn.textContent = "Why no?! 😭";
       }
-      if (noCount === 9 {
+      if (noCount === 8) {
         noBtn.textContent = "You are hurting my feelings 🥺";
         }
-      if (noCount === 12) {
+      if (noCount === 10) {
         noBtn.textContent = "You're really picking NO?!";
           }
-      if (noCount === 15) {
+      if (noCount === 12) {
         noBtn.textContent = "Tjo, Tlogela geh - mxm";
       }
 
@@ -395,10 +395,10 @@
 
     // dodge on hover AND on click
     noBtn.addEventListener("mouseenter", () => {
-      if (window.innerWidth > 520) moveNoButton();
+      if (window.innerWidth > 300) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 520) moveNoButton();
+      if (window.innerWidth > 300) moveNoButton();
     });
 
     // respectful exit option
