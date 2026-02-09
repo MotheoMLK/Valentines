@@ -262,7 +262,7 @@
 
     <h1>Pelontle, will you be my Valentine? 💘</h1>
     <p class="sub">
-      Our situation may not be prefect, but I want to spend a day with <b>you</b>.
+      Our situation may not be perfect, but I want to spend a day with <b>you</b>.
       And honestly… hopefully lot of days after that too. 🌙
     </p>
 
@@ -398,7 +398,7 @@
       if (window.innerWidth > 520) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 1) moveNoButton();
+      if (window.innerWidth > 520) moveNoButton();
     });
 
     // respectful exit option
