@@ -395,10 +395,10 @@
 
     // dodge on hover AND on click
     noBtn.addEventListener("mouseenter", () => {
-      if (window.innerWidth > 12) moveNoButton();
+      if (window.innerWidth > 1) moveNoButton();
     });
     noBtn.addEventListener("click", () => {
-      if (window.innerWidth > 12) moveNoButton();
+      if (window.innerWidth > 1) moveNoButton();
     });
 
     // respectful exit option
@@ -406,7 +406,7 @@
       quoteEl.textContent =
         "That’s okay, I understand. 💗 I like you a lot — and I respect you. If you ever want to talk, I’m here.";
       noBtn.style.position = "static";
-      noBtn.textContent = "No?! 🙈";
+      noBtn.textContent = "No?!🙈";
     });
 
     // close modal by clicking outside
