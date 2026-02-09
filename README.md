@@ -380,7 +380,7 @@
       if (noCount === 14) {
         noBtn.textContent = "Tjo, Tlogela geh Dineo";
             }
-      if (noCount === 16) {
+      if (noCount === 17) {
         noBtn.textContent = "At this point, delete my numbers!!!";
       }
 
