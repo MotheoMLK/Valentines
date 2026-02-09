@@ -257,7 +257,7 @@
   <main class="card">
     <div class="top">
       <div class="badge">💌 <span>Message from your least favorite person</span></div>
-      <div class="badge">✨ <span class="sparkle">Made with love</span></div>
+      <div class="badge">✨ <span class="sparkle">Made with lots of love</span></div>
     </div>
 
     <h1>Pelontle, will you be my Valentine? 💘</h1>
